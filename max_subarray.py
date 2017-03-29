@@ -1,6 +1,7 @@
 #kadane's algorithm: O(n) time algorithm(Dynammic programming)
 
 from sys import maxint
+import stock_prices
 
 def max_subarray_sequence(a, max, index):
     val = max
